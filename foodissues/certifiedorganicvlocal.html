@@ -1,0 +1,209 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/articletemplate.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Food Issues | Fresh, Local, Organic Produce for the Gallatin Valley | Three Hearts Farm</title>
+<!-- InstanceEndEditable -->
+<style type="text/css">
+<!--
+body {
+	background-color: #3c2313;
+	margin: 0;
+	padding: 0;
+	color: #3c2313;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 100%;
+	line-height: 1.4;
+	background-image: url(../images/backgroundrows2.jpg);
+	background-repeat: no-repeat;
+}
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 35px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color: #660000; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+	text-decoration: none;
+}
+a:visited {
+	color: #660200;
+	text-decoration: none;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+
+/* ~~this fixed width container surrounds the other divs~~ */
+.container {
+	width: 960px;
+	background-color: #FFC;
+	margin: 0 auto;
+	background-repeat: repeat;
+	text-align: left;
+	background-image: url(../images/bndpattern.jpg);
+}
+
+/* ~~ the header is not given a width. It will extend the full width of your layout. It contains an image placeholder that should be replaced with your own linked logo ~~ */
+.header {
+	text-align: center;
+}
+
+/* ~~ These are the columns for the layout. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the divs. The elements within these divs have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+2) No margin has been given to the columns since they are all floated. If you must add margin, avoid placing it on the side you're floating toward (for example: a right margin on a div set to float right). Many times, padding can be used instead. For divs where this rule must be broken, you should add a "display:inline" declaration to the div's rule to tame a bug where some versions of Internet Explorer double the margin.
+
+3) Since classes can be used multiple times in a document (and an element can also have multiple classes applied), the columns have been assigned class names instead of IDs. For example, two sidebar divs could be stacked if necessary. These can very easily be changed to IDs if that's your preference, as long as you'll only be using them once per document.
+
+4) If you prefer your nav on the right instead of the left, simply float these columns the opposite direction (all right instead of all left) and they'll render in reverse order. There's no need to move the divs around in the HTML source.
+
+*/
+.sidebar1 {
+	float: left;
+	width: 270px;
+	padding-left: 60px;
+	padding-top: 15px;
+}
+.content {
+	width: 550px;
+	float: left;
+	padding-top: 15px;
+	padding-right: 60px;
+	padding-bottom: 10px;
+	padding-left: 0;
+}
+
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+}
+
+/* ~~ The navigation list styles (can be removed if you choose to use a premade flyout menu like Spry) ~~ */
+ul.nav {
+	list-style: none; /* this removes the list marker */
+	border-top: 1px solid #666; /* this creates the top border for the links - all others are placed using a bottom border on the LI */
+	margin-bottom: 15px; /* this creates the space between the navigation on the content below */
+}
+ul.nav li {
+	border-bottom: 1px solid #666; /* this creates the button separation */
+}
+ul.nav a, ul.nav a:visited { /* grouping these selectors makes sure that your links retain their button look even after being visited */
+	padding: 5px 5px 5px 15px;
+	display: block; /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
+	width: 160px;  /*this width makes the entire button clickable for IE6. If you don't need to support IE6, it can be removed. Calculate the proper width by subtracting the padding on this link from the width of your sidebar container. */
+	text-decoration: none;
+	background-color: #C6D580;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
+	background-color: #ADB96E;
+	color: #FFF;
+}
+
+/* ~~ The footer ~~ */
+.footer {
+	padding: 10px 0;
+	position: relative;/* this gives IE6 hasLayout to properly clear */
+	clear: both; /* this clear property forces the .container to understand where the columns end and contain them */
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+-->
+</style>
+<link href="../styles.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+a:hover {
+	text-decoration: none;
+	color: #CC3300;
+}
+a:active {
+	text-decoration: none;
+}
+</style>
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+
+<div class="container">
+  <div class="header"><!-- end .header --><img src="../images/thfheader.png" width="817" height="198" alt="Three Hearts Farm logo" /><br />
+    <span class="orangetext"><a href="../index.html" class="menutext">Home</a> | <a href="../threeheartscsa.html" class="menutext">CSA’s</a> |  <a href="../about.html" class="menutext">About</a> |  <a href="../findthefood.html" class="menutext">Find the Food</a> |  <a href="../recipesmain.html" class="menutext">Recipes</a> | <a href="../foodissues.html" class="menutext">Food Issues </a></span><br />
+  <br />
+  </div>
+  <!-- InstanceBeginEditable name="content left" -->
+  <div class="sidebar1"><!-- end .sidebar1 -->
+    <p><span class="header1"><span class="articlelinks"><img src="../images/dottedline_longvert.png" width="28" height="537" class="fltrt" /></span>Food Issues</span></p>
+    <p class="articlelinks"><a href="../foodissues.html">Farming Is an act of Faith</a><br />
+      <a href="findingland.html">Finding Land</a><br />
+      <a href="onfarming.html">On Farming</a><br />
+    <a href="certifiedorganicvlocal.html">Certified Organic vs. Local</a></p>
+  </div>
+  <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="content main" -->
+  <div class="content">
+    <p>
+      <!-- end .content --><span class="header2">Certified Organic vs. Local</span></p>
+    <p class="paragraphtext">The USDA Certified Organic Label. A stamp of approval. A stamp of validation—this is food you can trust. The government says so.</p>
+    <p class="paragraphtext">Why we trust our government when it comes to food and food safety is beyond me. I won&rsquo;t succumb to hyperbole here (though, it&rsquo;s tempting to say something like, &ldquo;this is the same government that was regulating sub-prime mortgages, public schools, Enron, the Iraq War and other fiascoes—so why would we trust them with our food.&rdquo; But, I won&rsquo;t say that).</p>
+    <p class="paragraphtext">I will say that the USDA Certified Organic label may be less than it is cracked up to be. From a&nbsp;&nbsp; distance and without looking too keenly, it seems positive. A farmer would be using organic seeds, would NOT be using synthetic fertilizers and pesticides, would not be contaminating the soil, would be required to document all these efforts and account for his practices. </p>
+    <p class="paragraphtext">USDA certification is the best game in town.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+    <p class="paragraphtext">It&rsquo;s also the only game in town. And that is not a reason sufficient enough to earn my praise. </p>
+    <p class="paragraphtext">Here&rsquo;s what USDA certification also means.&nbsp; For processed foods, the USDA stamp means many things: &ldquo;100% organic&rdquo; (100% organic ingredients, including processing aids), &ldquo;organic&rdquo; (at least 95% organic ingredients), &ldquo;made with organic ingredients&rdquo; (at least 70% organic ingredients) and proper use of the word &ldquo;organic&rdquo; in ingredient list (less than 70% organic ingredients).</p>
+    <p class="paragraphtext">Processed organic foods—am I missing this irony?—must also be protected from contamination, if pesticides are used in the processing facility and said facility must keep records of all pesticide applications.&nbsp; And, here I was assuming that an organic product would be nowhere near pesticides.</p>
+    <p class="paragraphtext">Organic dairies have long been seeking loopholes in certification requirements, and they have found them. The Cornucopia Institute has railed against Horizon Dairy, Aurora Dairy and others for cynical manipulation of organic regulations—cows were fed non-organic meal, not allowed access to pasture and so on. And yet, these products still earned organic validation.</p>
+    <p class="paragraphtext">In addition, and these chap me the most, each producer who is certified must pay 1% of gross sales back to the USDA to . . . what, exactly? That&rsquo;s right, to fund the certification bureaucracy. The final insult to me is that I as a producer following organic practices and not looking for loopholes but looking for best holistic practices to sustain my land well beyond my time on it—I am legally barred from calling my food organic. I cannot use the word. The USDA has bought a word.</p>
+    <p class="paragraphtext">It is along the lines of that former President declaring a war on terror: defining a target that exists only as a concept and not as anything tangible. Except that here, organic describes a state of existence, a process of production, and a characteristic of life itself. The nerve. </p>
+    <p class="paragraphtext">What raises particularly troubling issues for me are those production facilities—industrial in scale, corporate in structure—which produce &ldquo;organic&rdquo; food and ship it all over the country and the world.</p>
+    <p class="paragraphtext">You would surely recognize brand names (think: triple-washed lettuce mix). What we are seeing there is a horrific &ldquo;organic&rdquo; economy built to scale, such that crops are planted commodity-style, sprays and soil-boosters are used (they may be &ldquo;organic&rdquo; but they still deplete), facilities share resources and fencelines (hence, the E.coli outbreak in spinach in California some years ago; the cause remains a mystery but folks are pointing at either irrigation water that was used in a hog processing plant used to wash the spinach or fugitive fecal dust from a neighboring cattle feedlot.&nbsp; Farmers are decimating wind breaks and vegetation borders around their farms to reduce the incidence of wildlife—believing wildlife are necessarily contaminants.</p>
+    <p class="paragraphtext">While these practices may meet the letter of the USDA certification law, they hardly square with what my grandmother would recognize as correct and honorable production. And we haven&rsquo;t even discussed the overwhelming incidence of illegal labor (er, non-documented friends from Latin America, primarily) who work the fields or the enormous petroleum inputs that go into organic production.</p>
+    <p class="paragraphtext">So. I actually did not sit down just now to skewer the USDA. The fact is that this is the best system we&rsquo;ve got, and I can only imagine the abuses and false claims, the outright scams that we would be facing without SOME effort to standardize &ldquo;organic&rdquo; production.</p>
+    <p class="paragraphtext">Because it is the only system we have and because it is so ineffectual, we owe it ourselves to do something better. Locally produced food from small-scale farms is the solution I propose.</p>
+    <p class="paragraphtext">Scoff all you like. We can&rsquo;t feed the world off of small farms. We cannot produce food consistently in sufficient quantities off of small farms. We cannot produce food reliably, all year, off of small farms. Add your own knee-jerk reaction. </p>
+    <p class="paragraphtext">My point is that we have to feed ourselves off of small farms. It is the only sustainable way Think: orders of magnitude less fuel for production and shipping to market because small farmers, almost to a person, are, ahem, &ldquo;organic&rdquo; meaning they are not using synthetic fertilizers, pesticides, herbicides or soil-boosters—all of which are derived from petroleum. Think very short distances from farm to consumer—which also, by the way, means food is harvested at peak ripeness, peak nutritional value and peak taste.</p>
+    <p class="paragraphtext">Think: much more concern for safety. I sell food to people I know, as do all small growers I know, and so I am profoundly aware of and concerned with making sure, to the best I can, that my food is safe to eat. That my spinach has no E.coli. Can I remove all pathogens? No. Do I try? Yes, within reason.</p>
+    <p class="paragraphtext">I also know that a vibrant ecosystem, with teeming mico and macroflora and fauna is critical to a sustainable farm. Soil health depends on the presence of microbial life. To eradicate that, as some food safety experts would have us do, is to strip the soil of ITS health. And, one need only be paying attention to infer that an unhealthy soil, a soil out of balance, will put out unhealthy food.</p>
+    <p class="paragraphtext">Beyond all of this, we have a food system that is in dire need of healing. The industrial-scale producers must change; small-scale truck farms must adapt. We are all in this together. Certified growers need to exceed the requirements of the USDA, to earn that validation. It is one thing to qualify; it is another to earn it. </p>
+    <p class="paragraphtext">Small scale growers need to recognize that we are also quite capable of producing foodborne illness, and so must remain vigilant in our practices—whether or not the government is watching. Consumers must begin shouldering their proportion of the responsibility here. Know the practices of your grower, certified or not. Ask questions at the farmers market (lots of offenders there, no matter the &ldquo;feel&rdquo; or appearance of authenticity or purity). Ask questions of your grocer or the restaurant you visit. Know where your food comes from.</p>
+    <p class="paragraphtext">The buy-local movement is not at odds with the certified organic movement: both are invaluable in turning around a food system adrift, as ours surely is. This is a false division, a meaningless opposition. Small scale growers who are certified want the same things that non-certified small-scale growers do. We want healthy communities and healthy land. We&rsquo;re all in it together, which gives me a tremendous amount of hope.  </p>
+  </div>
+  <!-- InstanceEndEditable -->
+  <div class="footer">
+    <p><img src="../images/footergardenrow.png" width="746" height="108" alt="row of veggies" /><br />
+      <span class="footertextlarge"><a href="mailto:dwilliamsonmt@gmail.com">Contact Us</a>  |  406-451-2184  |</span> <a href="http://www.facebook.com/pages/Three-Hearts-Farm/126200294104415"><img src="../images/facebookicon.png" alt="Facebook link" width="33" height="29" class="footertextlarge" /><br />
+    </a><img src="../images/dottedline_longhoriz.png" width="743" height="16" /><br />
+    <span class="footertextnormal"><a href="../index.html">Home</a> | <a href="../threeheartscsa.html">CSA's</a> | <a href="../about.html">About</a> | <a href="../findthefood.html">Find the Food</a> | <a href="../recipesmain.html">Recipes</a> | <a href="../foodissues.html">Food Issues</a></span></p>
+    <p><span class="footertextsmall">site &copy; 2013 Three Hearts Farm | Site Design by <a href="http://www.ripitupchick.com/">Rip It Up Chick! Designs</a></span><br />
+    </p>
+  <!-- end .footer --></div>
+<!-- end .container --></div>
+</body>
+<!-- InstanceEnd --></html>

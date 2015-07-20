@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/articletemplate.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Food Issues | Fresh, Local, Organic Produce for the Gallatin Valley | Three Hearts Farm</title>
+<!-- InstanceEndEditable -->
+<style type="text/css">
+<!--
+body {
+	background-color: #3c2313;
+	margin: 0;
+	padding: 0;
+	color: #3c2313;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 100%;
+	line-height: 1.4;
+	background-image: url(../images/backgroundrows2.jpg);
+	background-repeat: no-repeat;
+}
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 35px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color: #660000; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+	text-decoration: none;
+}
+a:visited {
+	color: #660200;
+	text-decoration: none;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+
+/* ~~this fixed width container surrounds the other divs~~ */
+.container {
+	width: 960px;
+	background-color: #FFC;
+	margin: 0 auto;
+	background-repeat: repeat;
+	text-align: left;
+	background-image: url(../images/bndpattern.jpg);
+}
+
+/* ~~ the header is not given a width. It will extend the full width of your layout. It contains an image placeholder that should be replaced with your own linked logo ~~ */
+.header {
+	text-align: center;
+}
+
+/* ~~ These are the columns for the layout. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the divs. The elements within these divs have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+2) No margin has been given to the columns since they are all floated. If you must add margin, avoid placing it on the side you're floating toward (for example: a right margin on a div set to float right). Many times, padding can be used instead. For divs where this rule must be broken, you should add a "display:inline" declaration to the div's rule to tame a bug where some versions of Internet Explorer double the margin.
+
+3) Since classes can be used multiple times in a document (and an element can also have multiple classes applied), the columns have been assigned class names instead of IDs. For example, two sidebar divs could be stacked if necessary. These can very easily be changed to IDs if that's your preference, as long as you'll only be using them once per document.
+
+4) If you prefer your nav on the right instead of the left, simply float these columns the opposite direction (all right instead of all left) and they'll render in reverse order. There's no need to move the divs around in the HTML source.
+
+*/
+.sidebar1 {
+	float: left;
+	width: 270px;
+	padding-left: 60px;
+	padding-top: 15px;
+}
+.content {
+	width: 550px;
+	float: left;
+	padding-top: 15px;
+	padding-right: 60px;
+	padding-bottom: 10px;
+	padding-left: 0;
+}
+
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+}
+
+/* ~~ The navigation list styles (can be removed if you choose to use a premade flyout menu like Spry) ~~ */
+ul.nav {
+	list-style: none; /* this removes the list marker */
+	border-top: 1px solid #666; /* this creates the top border for the links - all others are placed using a bottom border on the LI */
+	margin-bottom: 15px; /* this creates the space between the navigation on the content below */
+}
+ul.nav li {
+	border-bottom: 1px solid #666; /* this creates the button separation */
+}
+ul.nav a, ul.nav a:visited { /* grouping these selectors makes sure that your links retain their button look even after being visited */
+	padding: 5px 5px 5px 15px;
+	display: block; /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
+	width: 160px;  /*this width makes the entire button clickable for IE6. If you don't need to support IE6, it can be removed. Calculate the proper width by subtracting the padding on this link from the width of your sidebar container. */
+	text-decoration: none;
+	background-color: #C6D580;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
+	background-color: #ADB96E;
+	color: #FFF;
+}
+
+/* ~~ The footer ~~ */
+.footer {
+	padding: 10px 0;
+	position: relative;/* this gives IE6 hasLayout to properly clear */
+	clear: both; /* this clear property forces the .container to understand where the columns end and contain them */
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+-->
+</style>
+<link href="../styles.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+a:hover {
+	text-decoration: none;
+	color: #CC3300;
+}
+a:active {
+	text-decoration: none;
+}
+</style>
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+
+<div class="container">
+  <div class="header"><!-- end .header --><img src="../images/thfheader.png" width="817" height="198" alt="Three Hearts Farm logo" /><br />
+    <span class="orangetext"><a href="../index.html" class="menutext">Home</a> | <a href="../threeheartscsa.html" class="menutext">CSA’s</a> |  <a href="../about.html" class="menutext">About</a> |  <a href="../findthefood.html" class="menutext">Find the Food</a> |  <a href="../recipesmain.html" class="menutext">Recipes</a> | <a href="../foodissues.html" class="menutext">Food Issues </a></span><br />
+  <br />
+  </div>
+  <!-- InstanceBeginEditable name="content left" -->
+  <div class="sidebar1"><!-- end .sidebar1 -->
+    <p><span class="header1"><span class="articlelinks"><img src="../images/dottedline_longvert.png" width="28" height="537" class="fltrt" /></span>Food Issues</span></p>
+    <p class="articlelinks"><a href="../foodissues.html">Farming Is an act of Faith</a><br />
+      <a href="findingland.html">Finding Land</a><br />
+      <a href="onfarming.html">On Farming</a><br />
+    <a href="certifiedorganicvlocal.html">Certified Organic vs. Local</a></p>
+  </div>
+  <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="content main" -->
+  <div class="content">
+    <p>
+      <!-- end .content --><span class="header2">On Farming</span></p>
+    <p class="paragraphtext">As I&rsquo;m hunched over roughly 100 onion starts, knees sinking into the mud where they will be planted, my head down to avoid most of the rain—which is futile, since the wind is whipping it faster and into more crevices than I can seal up—I think, man, this just sucks. At this moment, this just sucks.</p>
+    <p class="paragraphtext">I could quit. I could walk away, or at least, walk inside and make some hot tea. And delay the suffering. I could wait and see—maybe the weather clears, maybe the onions plant themselves. I can dream, right? I could sit and wait for better conditions.</p>
+    <p class="paragraphtext">I am instantly reminded of what Bill Marx, a neighbor told me. He raises dairy cows, and has been in farming all his life. He relayed something his dad told him when he was a little kid:&nbsp; &ldquo;If you&rsquo;re looking for something to do, you can strap on a tin beak, and scratch shit with the chickens.&rdquo;&nbsp; Or, there&rsquo;s work to be done. Just do it.</p>
+    <p class="paragraphtext">See, I came to be planting these onions—along with thousands of other plants—from a rather circuitous route. I was not born onto a farm. I did not intern as a farmer. Instead, I jumped into farming as a former literature and writing teacher. </p>
+    <p class="paragraphtext">The glib thing to say here was that I was farming young minds, planting seeds into the rich soil of the imagination, so that one day, my students would blossom into—yeah, can&rsquo;t even finish that. Truth is, I was teaching and loving it.</p>
+    <p class="paragraphtext">I often do wonder about my cold-turkey, abrupt move into growing food. I wonder most often on those rainy, muddy, cold days when I have to be outside, on hands and knees, getting plants into the ground. Teaching was so much drier. And warmer. And on my feet.</p>
+    <p class="paragraphtext">Why, then, move from the classroom to the fields? </p>
+    <p class="paragraphtext">Why indeed.</p>
+    <p class="paragraphtext">I do miss the student and the learning experience I shared with them. There is something about the possibility of surprise and the prospect of discovery that I did really like.</p>
+    <p class="paragraphtext">Of course, I find that in surplus on the farm. The way each seed requires specific planting: corn is deep, lettuce shallow. The way the husk of the tomatillo forms before the fruit, and hangs off the branch . . . the effect is a living Chinese-lantern chandelier. The way the cauliflower draws its leaves into the core when it is ready to form the fruit, as though making a womb.</p>
+    <p class="paragraphtext">But I digress. </p>
+    <p class="paragraphtext">I did find that teachers—and this may apply more to the university setting than the secondary—tend to operate from the neck up. I will offer wildly general characterizations here, as surely not all academics are like this, but on the job, what is celebrated is the brain, and the intellect, and the logic of thought.&nbsp; They tend not to do much of anything.</p>
+    <p class="paragraphtext">There are papers, and books, lectures and symposia; there are conferences and discussions, and seminars and research, but little is made. Littler is made manifest, certainly in ways that benefit more than a select academic niche.</p>
+    <p class="paragraphtext">What surprised me most prior to farming was the reservoir of innovation, imagination and creativity I found in the region&rsquo;s small-scale food producers. Growers solving problems; producers maximizing efficiencies. All as a matter of course.</p>
+    <p class="paragraphtext">Farmers do not invent things like mobile greenhouses or companion planting or grazing rotations because it is novel or because they are bored and are looking for new ways to stimulate their intellects (or resumes). Growers innovate because it is necessary for survival. Because they have to.</p>
+    <p class="paragraphtext">When I gave myself the title farmer, what I did not know was that I would also inherit other titles: Chief Tractor Operator (CTO), Irrigation Specialist, Manure Mixologist (or if you prefer, ShitMan), Lord of the Chickens, and so on.</p>
+    <p class="paragraphtext">Academia pushes its participants to specialize into ever-increasingly narrow avenues of research and study. As in narrow to the point of absurdity. Which is one reason there is a course on Lady Gaga at the University of South Carolina. Just who Her Highness is and what Her Highness does is beyond me, but there you go. A career made of the moment.</p>
+    <p class="paragraphtext">Farming is for generalists. I now know more about hydraulics, beet-storage, fencing, weeds and &ldquo;controlling&rdquo; gophers than I ever imagined I would. The best part is that there are no books where I found this—I found all this from doing it. From talking to long-time farmers, including my neighbor, a dairy-man, and from watching the plants.</p>
+    <p class="paragraphtext">It is experiential. It is only constant in its infinite changing. It is a new start every spring. It is one hail storm from ending. It is capricious and whimsical and maddeningly so. And there is nothing I would rather do.</p>
+    <p class="paragraphtext">I find that farmers think and plan and analyze and pontificate (oh, don&rsquo;t we) on a scale that rivals anything I ever saw in the halls of academe. I find they also do. They are always doing, in response to the thinking and planning and analyzing and so that they can pontificate. But they are always doing. There is always something to do: seeding, planting, weeding, watering, harvesting, washing, storing, delivering, selling, planning. Which is why you can&rsquo;t talk to a farmer during the growing season. She&rsquo;s always working. Which is why I write this in winter. </p>
+    <p class="paragraphtext">But even now, the tin beak takes a back seat. There are tools to sharpen, chicks to brood, seeds to order. There are so many things to do.</p>
+  </div>
+  <!-- InstanceEndEditable -->
+  <div class="footer">
+    <p><img src="../images/footergardenrow.png" width="746" height="108" alt="row of veggies" /><br />
+      <span class="footertextlarge"><a href="mailto:dwilliamsonmt@gmail.com">Contact Us</a>  |  406-451-2184  |</span> <a href="http://www.facebook.com/pages/Three-Hearts-Farm/126200294104415"><img src="../images/facebookicon.png" alt="Facebook link" width="33" height="29" class="footertextlarge" /><br />
+    </a><img src="../images/dottedline_longhoriz.png" width="743" height="16" /><br />
+    <span class="footertextnormal"><a href="../index.html">Home</a> | <a href="../threeheartscsa.html">CSA's</a> | <a href="../about.html">About</a> | <a href="../findthefood.html">Find the Food</a> | <a href="../recipesmain.html">Recipes</a> | <a href="../foodissues.html">Food Issues</a></span></p>
+    <p><span class="footertextsmall">site &copy; 2013 Three Hearts Farm | Site Design by <a href="http://www.ripitupchick.com/">Rip It Up Chick! Designs</a></span><br />
+    </p>
+  <!-- end .footer --></div>
+<!-- end .container --></div>
+</body>
+<!-- InstanceEnd --></html>

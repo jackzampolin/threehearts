@@ -1,0 +1,316 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/recipestemplate.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Recipes for Fresh, Local, Organic Produce for the Gallatin Valley | Three Hearts Farm</title>
+<!-- InstanceEndEditable -->
+<style type="text/css">
+<!--
+body {
+	background-color: #3c2313;
+	margin: 0;
+	padding: 0;
+	color: #3c2313;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 100%;
+	line-height: 1.4;
+	background-image: url(../images/backgroundrows2.jpg);
+	background-repeat: no-repeat;
+}
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 35px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color: #660000; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+	text-decoration: none;
+}
+a:visited {
+	color: #660200;
+	text-decoration: none;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+
+/* ~~this fixed width container surrounds the other divs~~ */
+.container {
+	width: 960px;
+	background-color: #FFC;
+	margin: 0 auto;
+	background-repeat: repeat;
+	text-align: left;
+	background-image: url(../images/bndpattern.jpg);
+}
+
+/* ~~ the header is not given a width. It will extend the full width of your layout. It contains an image placeholder that should be replaced with your own linked logo ~~ */
+.header {
+	text-align: center;
+}
+
+/* ~~ These are the columns for the layout. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the divs. The elements within these divs have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+2) No margin has been given to the columns since they are all floated. If you must add margin, avoid placing it on the side you're floating toward (for example: a right margin on a div set to float right). Many times, padding can be used instead. For divs where this rule must be broken, you should add a "display:inline" declaration to the div's rule to tame a bug where some versions of Internet Explorer double the margin.
+
+3) Since classes can be used multiple times in a document (and an element can also have multiple classes applied), the columns have been assigned class names instead of IDs. For example, two sidebar divs could be stacked if necessary. These can very easily be changed to IDs if that's your preference, as long as you'll only be using them once per document.
+
+4) If you prefer your nav on the right instead of the left, simply float these columns the opposite direction (all right instead of all left) and they'll render in reverse order. There's no need to move the divs around in the HTML source.
+
+*/
+.sidebar1 {
+	float: left;
+	width: 270px;
+	padding-left: 60px;
+	padding-top: 15px;
+}
+.content {
+	width: 550px;
+	float: left;
+	padding-top: 15px;
+	padding-right: 60px;
+	padding-bottom: 10px;
+	padding-left: 0;
+}
+
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+}
+
+/* ~~ The navigation list styles (can be removed if you choose to use a premade flyout menu like Spry) ~~ */
+ul.nav {
+	list-style: none; /* this removes the list marker */
+	border-top: 1px solid #666; /* this creates the top border for the links - all others are placed using a bottom border on the LI */
+	margin-bottom: 15px; /* this creates the space between the navigation on the content below */
+}
+ul.nav li {
+	border-bottom: 1px solid #666; /* this creates the button separation */
+}
+ul.nav a, ul.nav a:visited { /* grouping these selectors makes sure that your links retain their button look even after being visited */
+	padding: 5px 5px 5px 15px;
+	display: block; /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
+	width: 160px;  /*this width makes the entire button clickable for IE6. If you don't need to support IE6, it can be removed. Calculate the proper width by subtracting the padding on this link from the width of your sidebar container. */
+	text-decoration: none;
+	background-color: #C6D580;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
+	background-color: #ADB96E;
+	color: #FFF;
+}
+
+/* ~~ The footer ~~ */
+.footer {
+	padding: 10px 0;
+	position: relative;/* this gives IE6 hasLayout to properly clear */
+	clear: both; /* this clear property forces the .container to understand where the columns end and contain them */
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+-->
+</style>
+<link href="../styles.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+a:hover {
+	text-decoration: none;
+	color: #CC3300;
+}
+a:active {
+	text-decoration: none;
+}
+</style>
+
+<!-- InstanceBeginEditable name="head" -->
+<meta name="keywords" content="Bozeman Montana, Gallatin Valley, CSA, organic bozeman farm, montana vegetables, Gallatin valley farm, Montana farm, sustainable, Co-op, fresh food Recipes, Three Hearts Farm" />
+<!-- InstanceEndEditable -->
+
+</head>
+
+<body>
+
+<div class="container">
+  <div class="header"><!-- end .header --><img src="../images/thfheader.png" width="817" height="198" alt="Three Hearts Farm logo" /><br />
+    <span class="orangetext"><a href="../index.html" class="menutext">Home</a> | <a href="../threeheartscsa.html" class="menutext">CSA’s</a> |  <a href="../about.html" class="menutext">About</a> |  <a href="../findthefood.html" class="menutext">Find the Food</a> |  <a href="../recipesmain.html" class="menutext">Recipes</a> | <a href="../foodissues.html" class="menutext">Food Issues </a></span><br />
+  <br />
+  </div>
+  <!-- InstanceBeginEditable name="content left" -->
+  <div class="sidebar1"><!-- end .sidebar1 -->
+    <p><span class="header1"><span class="articlelinks"><img src="../images/dottedline_longvert.png" width="28" height="537" class="fltrt" /></span>Recipes</span></p>
+    <p class="articlelinks"><a href="kalerecipes.html">Kale</a><br />
+      <a href="cauliflowerrecipes.html">Cauliflower</a><br />
+      <a href="squashnzuchcchini.html">Squash &amp; Zucchini</a><br />
+      <a href="tastyveggies.html">Tasty Veggies</a><br />
+      <a href="quinoarecipes.html">Quinoa</a><br />
+      <a href="pastaandotherdishes.html">Pasta &amp; Other Dishes</a><br />
+      <a href="soups.html">Soups</a><br />
+      <a href="salads.html">Salads</a><br />
+      <a href="smoothies.html">Smoothies</a><br />
+      <br />
+    <br />
+    </p>
+  </div>
+  <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="content main" -->
+  <div class="content">
+    <p>
+      <!-- end .content --><span class="header2">Pasta and Other Dishes</span></p>
+    <p><span class="header3">Green Pasta</span><br />
+      <span class="paragraphtext">4 cloves garlic, peeled <br />
+      4 small shallots, peeled <br />
+      1 small bunch of kale <br />
+      1/2 lb / 8 oz, stalks removed, washed well <br />
+      1/3 cup / 80 ml extra virgin olive oil <br />
+      1/3 cup / 2 oz goat cheese, plus more for topping <br />
+      2 tablespoons + hot pasta water <br />
+      fine grain sea salt &amp; freshly ground black pepper <br />
+      fresh lemon juice - optional <br />
+      12 oz / 340 g dried penne pasta <br />
+    fresh thyme - and thyme flowers</span></p>
+    <p class="paragraphtext">Bring a large pot of water to a boil. Salt the boiling water generously, and add the garlic and shallots. Boil for 2-3 minutes, stir in the kale and cook for another ten seconds. Don't overcook. Working quickly, use a slotted spoon or strainer to fish the greens, garlic, and shallots from the water. Use a food processor to puree the ingredients along with the olive oil and goat cheese. Add a couple tablespoons of hot pasta water if needed to thin things out if needed. </p>
+    <p class="paragraphtext">Then season with a touch of salt and plenty of black pepper. Taste. Depending on your goat cheese, you might need a little extra acidic oomph if your sauce is a bit flat. If so, add fresh lemon juice a bit at a time until you're happy with it the sauce. Set aside.</p>
+    <p class="paragraphtext">Reheat the pot of water and boil the pasta per package instructions. Drain and toss immediately with the green sauce. Serve topped with a few pinches of fresh thyme, and more crumbled goat cheese.</p>
+    <p class="paragraphtext">Serves 4-6. <br />
+      Prep time: 10 min - Cook time: 10 min</p>
+    <p class="paragraphtext">&nbsp;</p>
+    <p><span class="header3">Baked Farro Pasta Recipe</span><br />
+      <span class="paragraphtext">You can use pretty much any green cabbage here - savoy, napa, or even shredded brussels sprouts if you have some to use up. On the pasta front I call for farro tagliatelle, but you can substitute a wide range of pasta shapes and types. For example, fettuccine, penne, broken lasagne, etc. And you can experiment beyond farro - whole wheat pastas, buckwheat, spelt, they'll all work nicely here. Lastly, I don't hammer this point to death down below, but do your best to salt/season each of the casserole components as you go. Each should taste great on its own.</span></p>
+    <p class="paragraphtext">1 pound small waxy potatoes, (Yukon gold, fingerling, Yellow Finn)<br />
+      salt<br />
+      1 1/2 tablespoons unsalted butter, plus more for the baking dish<br />
+      2 medium leeks, trimmed, thinly sliced, <br />
+      3 garlic gloves, minced<br />
+      1/2 medium head of cabbage (about 1 lb), cored and shredded<br />
+      1/2 cup vegetable broth or water<br />
+      1 1/2 tablespoons whole grain mustard <br />
+      1 1/2 cups freshly grated Parmesan cheese <br />
+      16 fresh sage leaves<br />
+      12 ounces dried farro tagliatelle, broken into 3-inch segments<br />
+      4 ounces soft-rind, creamy cheese, cut into tiny cubes (for example, fontina)</p>
+    <p class="paragraphtext">Bring a large pot of water to a boil for cooking the pasta.<br />
+      In the meantime, in a separate pan, cover the potatoes with water and a few big pinches of salt. Simmer until just tender, somewhere between 30 - 45 minutes, depending on the size of the potatoes. Drain well, then slice into 1/4-inch rounds, toss gently with a bit of salt. Set aside.</p>
+    <p class="paragraphtext">Melt the butter in a large skillet over medium heat. Add the leeks and cook until soft, a few minutes. Stir in the garlic. Stir in the cabbage, and then the broth. Season with salt and cook, covered, for a few minutes, or until the cabbage is tender. Remove from heat and stir in the mustard, then 1/2 cup of the Parmesan cheese, and half of the slivered sage leaves. Taste, adjust the seasoning if needed, and set aside. It should taste good on its own, with an assertive mustard flavor at this point.</p>
+    <p class="paragraphtext">Cook the pasta in generously salted water until al dente. Drain and set aside.  Generously butter a 9 x 13-inch (23cm x 33cm) baking dish, or equivalent. Arrange 1/2 of the noodles evenly in the bottom of the dish. Layer half the cabbage mixture, half of the potatoes, 1/2 cup of Parmesan cheese, and half of the cubed cheese on top of the noodles. Arrange the remaining noodles over the cheese and cover with the remaining cabbage, potatoes, and cubed cheese. Finish with the remaining Parmesan and slivered sage.</p>
+    <p class="paragraphtext">At this point you can cover and refrigerate the casserole for up to a couple days, or bake in a 400F degree oven for 45 - 60 minutes - until the top is nicely golden, and it is hot throughout. Serve hot.<br />
+      Serves 6 - 8.</p>
+    <p class="paragraphtext">&nbsp;</p>
+    <p class="paragraphtext"><span class="header3">Okonomiyaki (Japanese Pizza) Recipe</span><br />
+      2 cups cabbage, finely shredded <br />
+      1 cup leeks, chopped<br />
+      2/3 cup whole wheat pastry flour <br />
+      a couple pinches of salt <br />
+      2 eggs, beaten <br />
+      1 tablespoon olive oil<br />
+      Garnish: toasted slivered almonds, chives/ herbs</p>
+    <p class="paragraphtext">Combine the cabbage, leeks, flour, and salt in a bowl. Toss until everything is coated with a dusting of flour. Stir in the eggs and mix until everything is evenly coated.</p>
+    <p class="paragraphtext">Heat a large skillet over medium heat and add a generous splash of olive oil. Scoop the cabbage mixture into the pan, and using a metal spatula press it into a round pancake shape, flat as you can get it. Cook for 4-5 minutes, or until the bottom is golden. To flip the okonomiyaki, slide it out of the skillet onto a plate. Place another plate on top and flip both (together) over. If you need a bit more oil in your skillet, add it now, before sliding the okonomiyaki back into the skillet. Again press down a bit with a spatula and cook until golden on this side - another 3 -5 minutes.</p>
+    <p class="paragraphtext">When you are finished cooking, sprinkle with toasted almonds and chives, and slide it onto a cutting board to cut into wedges. Enjoy immediately.<br />
+      Serves 1 - 2.</p>
+    <p class="paragraphtext">&nbsp;</p>
+    <p class="paragraphtext"><span class="header3">Poached Eggs Over Rice</span><br />
+      1 tablespoon olive oil<br />
+       1/2 onion, chopped<br />
+       2 pinches of salt<br />
+       pinch of crushed red pepper flakes (optional)<br />
+       3/4 cup organic extra-firm tofu (optional) 1/4 inch dice <br />
+      1 small clove garlic, chopped<br />
+       2 - 3 cups dark leafy green, finely chopped <br />
+      2 - 3 cups pre-cooked whole grain rice (brown is fine) <br />
+      4 good quality eggs</p>
+    <p class="paragraphtext">Fill a wide-mouthed saucepan with 3-4 inches of water and bring to a simmer.</p>
+    <p class="paragraphtext">Separately, warm the olive oil in a large skillet over medium-high heat. Stir in the onion, salt, and crusher red pepper flakes. Let the onions soften up a bit - a couple minutes. Stir in the tofu if you are using it - let that heat up and brown a tad. Now stir in the garlic and greens. Cook the greens for a couple minutes, until they collapse and soften up. Stir in the pre-cooked rice and saute until hot. Remove from heat, and set aside. Taste for seasoning as well.<br />
+      Now back to the simmering water. You are going to use this to poach the eggs one at a time. Gently crack egg into a ramekin, carefully slip it into a mesh strainer over your sink - some of the whites will run through and strain off (if the mesh is too fine, you won't get the desired effect). This minimizes the fly-away whites you normally get. Now, carefully slide the egg back into the ramekin. Lower the ramekin down into the simmering water and let the egg slip out. Let it simmer there for a few minutes, past the point when the whites have become opaque. If you like a loose yolk, cook for less time. Remove the egg with a strainer or slotted spoon and either serve it atop some rice or set aside while you repeat the process with the remaining eggs.</p>
+    <p class="paragraphtext">Divide the rice between four bowls and serve each topped with one of the poached eggs.<br />
+      Makes four servings.  </p>
+    <p class="paragraphtext">&nbsp;</p>
+    <p class="paragraphtext"><span class="header3">A Tasty Frittata Recipe</span><br />
+      Cilantro Chile Sauce<br />
+      2 large cloves garlic <br />
+      1/2 cup extra virgin olive oil<br />
+       2 tablespoons lemon juice, freshly squeezed<br />
+       1 small bunch cilantro<br />
+       1 green (serrano) chile, seeds removed<br />
+       2 pinches ground cumin<br />
+       a couple big pinches of salt</p>
+    <p class="paragraphtext">Frittata<br />
+       6 large organic eggs<br />
+       1 tablespoon olive oil<br />
+       1 small yellow onion, chopped<br />
+       3 small potatoes, very very thinly sliced<br />
+      1/2 cup yellow zucchini or cauliflower<br />
+      1/2-inch pieces <br />
+      1/4 cup goat cheese, crumbled <br />
+      1/4 cup pumpkin seeds, toasted  <br />
+      couple pinches of salt</p>
+    <p class="paragraphtext">Preheat your oven to 450F degrees. Make the cilantro chile sauce by pureeing the garlic, olive oil, lemon juice, cilantro, chile, cumin, and salt until very smooth. Taste and add more salt if needed. Set aside.</p>
+    <p class="paragraphtext">In a medium bowl whisk the eggs with a small pinch of salt. Set aside. In a (small) 8 1/2-inch ovenproof nonstick skillet over medium-high heat add the olive oil, onion, and another pinch of salt. Saute, stirring constantly, until the onion starts to brown, 5 - 7 minutes. Add the potatoes and zucchini (or cauliflower), cover, and cook for another 3 minutes or so. Slide everything out of the skillet onto a plate and set aside.</p>
+    <p class="paragraphtext">Turn down the heat a bit. Using the same skillet, add the eggs and cook over medium-low heat for about 5 minutes or until the eggs are just set and there isn't a lot of liquid running around the pan. To facilitate this, run a spatula underneath the sides of the frittata and tilt the pan so the uncooked eggs run to the underside and cook. Drizzle the eggs with a few tablespoons of the cilantro chile sauce, now sprinkle the potato onion mixture over the top.<br />
+      Place the skillet in the oven and bake for about 9 minutes, or until well set and puffy. Add a crumble of goat cheese and the pumpkin seeds across the top of the frittata in the final 2 minutes of baking. Remove from oven (be careful the handle is hot!), cut into wedges and serve.<br />
+      Serves 2 to 4.<br />
+    </p>
+    <p>&nbsp;</p>
+    <p class="paragraphtext"><span class="header3">Tzatsiki</span><br />
+      1 English cucumber, peeled<br />
+      10 cloves garlic, smashed and finely chopped<br />
+      1 cup distilled white vinegar<br />
+      4 shallots, thickly sliced<br />
+      1 cup small, picked sprigs dill<br />
+      2 1/2 cups strained or Greek yogurt or labne spread<br />
+      2 tablespoons extra-virgin olive oil<br />
+      2 tablespoons fresh lemon juice<br />
+      Kosher salt and cracked black pepper</p>
+    <p class="paragraphtext">Quarter the cucumber lengthwise and trim off the triangular wedge of seeds. Cut the cucumber into a very small, even dice. Transfer it to a mixing bowl.</p>
+    <p class="paragraphtext">In a food processor, combine the garlic, vinegar, shallots, and dill. Pulse until finely chopped but not puréed. Add the mixture to the cucumbers; add the yogurt. Fold together with a rubber spatula, adding olive oil and lemon juice. Season liberally with kosher salt and pepper, starting off with 1 tablespoon salt. Taste for seasoning. You can store Tzatsiki in a covered, clean jar in the refrigerator for up to 1 week. : Makes 1 quart</p>
+    <p class="paragraphtext">* The Wedge: Smear some Tzatsiki onto a pita triangle. Top with a tiny pinch of dry Greek oregano, a few pieces of diced tomato or a halved grape or cherry tomato, and a few salami matchsticks.</p>
+    <p>&nbsp;</p>
+    <p class="paragraphtext"><span class="header3">Broccoli Pesto</span><br />
+      1 medium head of broccoli (about 3 cups), cut into small florets<br />
+      1/2 cup walnuts, toasted <br />
+      1/3 cup Parmesan, freshly grated <br />
+      1 clove of garlic<br />
+      juice of 1/2 a lemon <br />
+      salt <br />
+      extra-virgin olive oil </p>
+    <p class="paragraphtext">To cook the broccoli, salt boiling water and add the broccoli. Cook for just twelve seconds. Drain immediately and run cold water over the broccoli to stop the cooking. Puree the broccoli in a food processor along with the walnuts, Parmesan, garlic, lemon juice and salt. Drizzle in the olive oil while still blending. Taste, adjust with more salt or lemon juice if needed. And presto—broccoli pesto!<br />
+    </p>
+  </div>
+  <!-- InstanceEndEditable -->
+  <div class="footer">
+    <p><img src="../images/footergardenrow.png" width="746" height="108" alt="row of veggies" /><br />
+      <span class="footertextlarge"><a href="mailto:dwilliamsonmt@gmail.com">Contact Us</a>  |  406-451-2184  |</span> <a href="http://www.facebook.com/pages/Three-Hearts-Farm/126200294104415"><img src="../images/facebookicon.png" alt="Facebook link" width="33" height="29" class="footertextlarge" /><br />
+    </a><img src="../images/dottedline_longhoriz.png" width="743" height="16" /><br />
+    <span class="footertextnormal"><a href="../index.html">Home</a> | <a href="../threeheartscsa.html">CSA's</a> | <a href="../about.html">About</a> | <a href="../findthefood.html">Find the Food</a> | <a href="../recipesmain.html">Recipes</a> | <a href="../foodissues.html">Food Issues</a></span></p>
+    <p><span class="footertextsmall">site &copy; 2013 Three Hearts Farm | Site Design by <a href="http://www.ripitupchick.com/">Rip It Up Chick! Designs</a></span><br />
+    </p>
+  <!-- end .footer --></div>
+<!-- end .container --></div>
+</body>
+<!-- InstanceEnd --></html>

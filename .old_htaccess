@@ -1,0 +1,9 @@
+Options +FollowSymLinks
+RewriteEngine On
+#RewriteBase /
+
+RewriteCond %{HTTP_HOST} ^threeheartsfarm.com$ [NC]
+RewriteRule ^(.*)$ http://threeheartsfarm.wordpress.com/ [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^www.threeheartsfarm.com$ [NC]
+RewriteRule ^(.*)$ http://threeheartsfarm.wordpress.com/ [R=301,L]
